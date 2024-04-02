@@ -205,7 +205,7 @@ const CustomForm = ({
             )}
 
             {formDescription && (
-              <FormDescription>{formDescription}</FormDescription>
+              <FormDescription className="max-sm:text-xs">{formDescription}</FormDescription>
             )}
             <FormMessage />
           </FormItem>

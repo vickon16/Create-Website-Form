@@ -61,8 +61,8 @@ const ClientForm = () => {
           <ClientWebsiteDetailsForm form={form} className="max-w-[700px]" />
         </div>
 
-        <div className="flex items-center justify-end max-w-[300px] ml-auto mt-16">
-          <Button type="submit" isLoading={isLoading} className="w-full" size="lg">
+        <div className="flex items-center justify-center sm:max-w-[300px] sm:ml-auto mt-16">
+          <Button type="submit" isLoading={isLoading} className="sm:w-full" size="lg">
             Submit Information
           </Button>
         </div>
