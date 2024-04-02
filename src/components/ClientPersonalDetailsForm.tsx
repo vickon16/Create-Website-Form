@@ -32,7 +32,7 @@ const ClientPersonalDetailsForm = ({ form, className }: Props) => {
         </p>
       </CardHeader>
 
-      <CardContent className="space-y-6">
+      <CardContent className="space-y-8">
         <div className="flex-1">
           <CustomForm
             form={form}
